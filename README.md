@@ -29,3 +29,38 @@ In our case, the Automobile Dataset is an online source, and it is in a CSV (com
 </ul>
 The Pandas Library is a useful tool that enables us to read various datasets into a dataframe; our Jupyter notebook platforms have a built-in <b>Pandas Library</b> so that all we need to do is import Pandas without installing.
 </p>
+
+<center>
+    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Module%202/images/IDSNlogo.png" width="300" alt="cognitiveclass.ai logo"  />
+</center>
+
+# Data Wrangling
+
+## Objectives
+
+After completing this lab you will be able to:
+
+*   Handle missing values
+*   Correct data format
+*   Standardize and normalize data
+<h2>Table of Contents</h2>
+
+<div class="alert alert-block alert-info" style="margin-top: 20px">
+<ul>
+    <li><a href="https://#identify_handle_missing_values">Identify and handle missing values</a>
+        <ul>
+            <li><a href="https://#identify_missing_values">Identify missing values</a></li>
+            <li><a href="https://#deal_missing_values">Deal with missing values</a></li>
+            <li><a href="https://#correct_data_format">Correct data format</a></li>
+        </ul>
+    </li>
+    <li><a href="https://#data_standardization">Data standardization</a></li>
+    <li><a href="https://#data_normalization">Data normalization (centering/scaling)</a></li>
+    <li><a href="https://#binning">Binning</a></li>
+    <li><a href="https://#indicator">Indicator variable</a></li>
+</ul>
+
+</div>
+
+<hr>
+
