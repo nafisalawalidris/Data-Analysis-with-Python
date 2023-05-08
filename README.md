@@ -30,10 +30,6 @@ In our case, the Automobile Dataset is an online source, and it is in a CSV (com
 The Pandas Library is a useful tool that enables us to read various datasets into a dataframe; our Jupyter notebook platforms have a built-in <b>Pandas Library</b> so that all we need to do is import Pandas without installing.
 </p>
 
-<center>
-    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DA0101EN-SkillsNetwork/labs/Module%202/images/IDSNlogo.png" width="300" alt="cognitiveclass.ai logo"  />
-</center>
-
 # Data Wrangling
 
 ## Objectives
