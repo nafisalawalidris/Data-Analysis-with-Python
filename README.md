@@ -91,3 +91,18 @@ After completing this lab you will be able to:
 *   Develop prediction models
 <p>In this section, we will develop several models that will predict the price of the car using the variables or features. This is just an estimate but should give us an objective idea of how much the car should cost.</p>
 
+# Model Evaluation and Refinement
+
+## Objectives
+
+After completing this lab you will be able to:
+
+*   Evaluate and refine prediction models
+
+<h2>Table of Contents</h2>
+<ul>
+    <li><a href="https://#ref1">Model Evaluation </a></li>
+    <li><a href="https://#ref2">Over-fitting, Under-fitting and Model Selection </a></li>
+    <li><a href="https://#ref3">Ridge Regression </a></li>
+    <li><a href="https://#ref4">Grid Search</a></li>
+</ul>
