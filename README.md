@@ -1,108 +1,56 @@
-# Data-Analysis-with-Python
-## Objectives
+<h1>Data Analysis with Python</h1>
 
-After completing this lab you will be able to:
+<p>This repository contains a collection of Jupyter Notebook labs for learning data analysis with Python. Each lab focuses on a specific aspect of data analysis, including data acquisition, data wrangling, exploratory data analysis, model development, and model evaluation and refinement.</p>
 
-*   Acquire data in various ways
-*   Obtain insights from data with Pandas library
-<h2>Table of Contents</h2>
+<h2>Lab Topics</h2>
 
-<div class="alert alert-block alert-info" style="margin-top: 20px">
 <ol>
-    <li><a href="https://#data_acquisition">Data Acquisition</a>
-    <li><a href="https://#basic_insight">Basic Insight of Dataset</a></li>
+  <li>Data Acquisition: Learn different methods to acquire data and load datasets into Jupyter Notebook.</li>
+  <li>Data Wrangling: Handle missing values, correct data format, standardize, and normalize data.</li>
+  <li>Exploratory Data Analysis: Explore features to predict car prices using visualization and descriptive statistics.</li>
+  <li>Model Development: Develop prediction models to estimate car prices.</li>
+  <li>Model Evaluation and Refinement: Evaluate, refine, and select the best prediction models using techniques like Ridge Regression and Grid Search.</li>
 </ol>
 
-</div>
-<hr>
-<h1 id="data_acquisition">Data Acquisition</h1>
-<p>
-There are various formats for a dataset: .csv, .json, .xlsx  etc. The dataset can be stored in different places, on your local machine or sometimes online.<br>
+<h2>Getting Started</h2>
 
-In this section, you will learn how to load a dataset into our Jupyter Notebook.<br>
+<p>To run the lab notebooks locally, follow these steps:</p>
 
-In our case, the Automobile Dataset is an online source, and it is in a CSV (comma separated value) format. Let's use this dataset as an example to practice data reading.
-
-<ul>
-    <li>Data source: <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDA0101ENSkillsNetwork20235326-2021-01-01" target="_blank">https://archive.ics.uci.edu/ml/machine-learning-databases/autos/imports-85.data</a></li>
-    <li>Data type: csv</li>
-</ul>
-The Pandas Library is a useful tool that enables us to read various datasets into a dataframe; our Jupyter notebook platforms have a built-in <b>Pandas Library</b> so that all we need to do is import Pandas without installing.
-</p>
-
-# Data Wrangling
-
-## Objectives
-
-After completing this lab you will be able to:
-
-*   Handle missing values
-*   Correct data format
-*   Standardize and normalize data
-<h2>Table of Contents</h2>
-
-<div class="alert alert-block alert-info" style="margin-top: 20px">
-<ul>
-    <li><a href="https://#identify_handle_missing_values">Identify and handle missing values</a>
-        <ul>
-            <li><a href="https://#identify_missing_values">Identify missing values</a></li>
-            <li><a href="https://#deal_missing_values">Deal with missing values</a></li>
-            <li><a href="https://#correct_data_format">Correct data format</a></li>
-        </ul>
-    </li>
-    <li><a href="https://#data_standardization">Data standardization</a></li>
-    <li><a href="https://#data_normalization">Data normalization (centering/scaling)</a></li>
-    <li><a href="https://#binning">Binning</a></li>
-    <li><a href="https://#indicator">Indicator variable</a></li>
-</ul>
-
-</div>
-
-<hr>
-
-# Exploratory Data Analysis
-## Objectives
-
-After completing this lab you will be able to:
-
-*   Explore features or charecteristics to predict price of car
-<h2>Table of Contents</h2>
-
-<div class="alert alert-block alert-info" style="margin-top: 20px">
 <ol>
-    <li><a href="https://#import_data">Import Data from Module</a></li>
-    <li><a href="https://#pattern_visualization">Analyzing Individual Feature Patterns using Visualization</a></li>
-    <li><a href="https://#discriptive_statistics">Descriptive Statistical Analysis</a></li>
-    <li><a href="https://#basic_grouping">Basics of Grouping</a></li>
-    <li><a href="https://#correlation_causation">Correlation and Causation</a></li>
-    <li><a href="https://#anova">ANOVA</a></li>
+  <li>Clone the repository: <code>git clone https://github.com/your-username/data-analysis-with-python.git</code></li>
+  <li>Navigate to the repository: <code>cd data-analysis-with-python</code></li>
+  <li>Create a virtual environment: <code>python -m venv env</code></li>
+  <li>Activate the virtual environment:
+    <ul>
+      <li>For Windows: <code>env\Scripts\activate</code></li>
+      <li>For macOS/Linux: <code>source env/bin/activate</code></li>
+    </ul>
+  </li>
+  <li>Install the required dependencies: <code>pip install -r requirements.txt</code></li>
+  <li>Start Jupyter Notebook: <code>jupyter notebook</code></li>
+  <li>Open the desired lab notebook and start learning!</li>
 </ol>
 
-</div>
+<h2>Requirements</h2>
 
-<hr>
+<p>The labs in this repository require the following dependencies:</p>
 
-# Model Development
-
-## Objectives
-
-After completing this lab you will be able to:
-
-*   Develop prediction models
-<p>In this section, we will develop several models that will predict the price of the car using the variables or features. This is just an estimate but should give us an objective idea of how much the car should cost.</p>
-
-# Model Evaluation and Refinement
-
-## Objectives
-
-After completing this lab you will be able to:
-
-*   Evaluate and refine prediction models
-
-<h2>Table of Contents</h2>
 <ul>
-    <li><a href="https://#ref1">Model Evaluation </a></li>
-    <li><a href="https://#ref2">Over-fitting, Under-fitting and Model Selection </a></li>
-    <li><a href="https://#ref3">Ridge Regression </a></li>
-    <li><a href="https://#ref4">Grid Search</a></li>
+  <li>Python 3</li>
+  <li>Jupyter Notebook</li>
+  <li>Pandas</li>
+  <li>NumPy</li>
+  <li>Matplotlib</li>
+  <li>Seaborn</li>
+  <li>Scikit-learn</li>
 </ul>
+
+<p>You can install the required dependencies by running <code>pip install -r requirements.txt</code>.</p>
+
+<h2>Contributing</h2>
+
+<p>Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.</p>
+
+<h2>License</h2>
+
+<p>This repository is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more details.</p>
