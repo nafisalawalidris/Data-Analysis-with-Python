@@ -1,12 +1,12 @@
 <h1>Data Analysis with Python</h1>
 
-<p>This repository contains a collection of Jupyter Notebook labs for learning data analysis with Python. Each lab focuses on a specific aspect of data analysis, including data acquisition, data wrangling, exploratory data analysis, model development, and model evaluation and refinement.</p>
+<p>This repository contains a collection of Jupyter Notebook labs for learning data analysis with Python. Each lab focuses on a specific aspect of data analysis, including data acquisition, data wrangling, exploratory data analysis, model development and model evaluation and refinement.</p>
 
 <h2>Lab Topics</h2>
 
 <ol>
   <li>Data Acquisition: Learn different methods to acquire data and load datasets into Jupyter Notebook.</li>
-  <li>Data Wrangling: Handle missing values, correct data format, standardize, and normalize data.</li>
+  <li>Data Wrangling: Handle missing values, correct data format, standardize and normalise data.</li>
   <li>Exploratory Data Analysis: Explore features to predict car prices using visualization and descriptive statistics.</li>
   <li>Model Development: Develop prediction models to estimate car prices.</li>
   <li>Model Evaluation and Refinement: Evaluate, refine, and select the best prediction models using techniques like Ridge Regression and Grid Search.</li>
